@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* make the to do item in the center of the screen */
+.home-container{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+#textArea{
+    position: relative;
+width: 300px;
+height: 40px;
+font-size: 1.8rem;
+font-weight:600 ;
+}
+
+#inputBtn{
+position: absolute;
+width: 40px;
+height: 40px;
+font-size: 1.8rem;
+font-weight:800 ;
+cursor: pointer;
+}
+
+/* from javascript */
+
+.todolist{
+    color: red;
+    text-decoration: none;
+    font-size: 2rem;
+}
